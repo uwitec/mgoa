@@ -1,0 +1,84 @@
+/* import core styles | Basis-Stylesheets einbinden */
+@import url(../yaml/core/base.css);
+
+/* import screen layout | Screen-Layout einbinden */
+@import url(../yaml/navigation/nav_shinybuttons.css);
+@import url(../yaml/screen/content.css);
+
+/**
+* (en) Forcing vertical scrollbars in IE8, Firefox, Webkit & Opera
+* (de) Erzwingen vertikaler Scrollbalken in IE8, Firefox, Webkit & Opera
+*
+* @workaround
+* @affected IE8, FF, Webkit, Opera
+* @css-for all
+* @valid CSS3
+*/
+
+body { overflow-y: scroll;}
+
+/*-------------------------------------------------------------------------*/
+
+/* (en) Marginal areas & page background */
+/* (de) Randbereiche & Seitenhintergrund */
+body { background: #ffffff; padding: 0; margin: 0 }
+
+/* Layout Alignment | Layout-Ausrichtung */
+.page_margins { margin: 0 auto; width:1000px; }
+
+/* Layout Properties | Layout-Eigenschaften */
+
+.page { padding: 0px; }
+#header { position:relative;}
+#nav {background: #f0f0f0;padding-top:10px;padding-bottom:10px;padding-top:10px;border-bottom: 1px #ccc dashed; overflow:hidden;}
+#nav .hlist{width:80%}
+#main { margin: 10px 0; background: #fff; }
+#teaser { clear:both; padding: 0 20px;}
+
+
+#topnav, #header, #nav{min-width:1000px;}
+
+
+
+/* (en) navigation: horizontal adjustment | (de) horizontale Ausrichtung  */
+#nav ul { margin-left: 20px; }
+
+/* for Xdebug*/
+font table{margin: 0 auto;border:none;}
+
+.clear{clear:both;}
+
+#header, #teaser{display:none;}
+
+
+
+#logo{font-size:14px;margin: 0px !important; line-height:2.2em;}
+
+
+#topnav, #footer { background: #333; color: #ccc; min-width: 1000px}
+
+#topnav { text-align:right; padding:3px 0}
+#topnav #topnav_loginarea{margin-right:10px;}
+#topnav .page { text-align:left; padding: 5px 0; }
+#topnav span.navlinks { float:right; }
+#topnav { border-bottom: 2px #666 solid; }
+#topnav a { color: #fff; font-weight: normal; background:transparent; text-decoration:none; }
+#topnav a:focus,
+#topnav a:hover,
+#topnav a:active { text-decoration:underline; background-color: transparent;}
+
+#footer { border-top: 2px #666 solid; padding:10px 0px}
+#footer a { color: #fff; background:transparent; font-weight: bold; }
+#footer a:focus,
+#footer a:hover,
+#footer a:active { background-color: transparent; text-decoration:underline; }
+
+img{vertical-align: middle; border:none;}
+
+
+.nav_search{width:20% !important;}
+.page-login-form{width:320px;}
+.yform .type-button{text-align:center;}
+
+.hidden{display: none;}
+

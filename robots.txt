@@ -1,0 +1,25 @@
+User-agent: *
+
+Disallow: /project/boot.php
+Disallow: /project/etc/
+Disallow: /project/applications/
+Disallow: /project/models/
+Disallow: /project/opt/
+Disallow: /project/tmp/
+Disallow: /project/system/
+Disallow: /project/statics/
+Disallow: /project/var/
+Disallow: /project/ajax.php
+Disallow: /project/api.php
+Disallow: /docs
+
+Disallow: *.yml
+Disallow: *.yml.php
+Disallow: *.sql
+
+Disallow: .htaccess
+Disallow: rewrite
+
+Disallow: .svn
+Disallow: .git
+Disallow: .gitignore

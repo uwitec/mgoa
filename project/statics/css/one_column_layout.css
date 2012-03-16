@@ -1,0 +1,29 @@
+@media screen, projection
+{
+
+
+/*-------------------------------------------------------------------------*/
+
+/**
+* (en) Formatting content container
+* (de) Formatierung der Inhalts-Container
+*
+*/
+
+#col1 { display:none;}
+#col2 { display:none}
+#col3 { width: auto; margin: 0; min-height:530px;}
+#col1_content { padding: 10px 10px 0 20px }
+#col3_content { padding: 10px 20px 0 10px }
+
+
+/* set column dividers */
+#col3 { border: none}
+
+/*-------------------------------------------------------------------------*/
+
+
+#col1_content, #col3_content{padding-top:10px;}
+
+
+}

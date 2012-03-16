@@ -1,0 +1,24 @@
+/* 
+    Document   : style
+    Created on : 2011-3-12, 13:27:33
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+#devel_toolbar_container{position:fixed;_position:absolute;width:300px;right:-274px;opacity:0.8;top:0px;}
+
+#devel_toolbar{z-index:1;padding-top:0px;top:0px;background:#111;color:#fff;padding:10px;width:254px}
+#devel_toolbar_show{cursor:pointer;text-align:center;margin-top:100px;}
+
+#devel_toolbar a,#devel_toolbar a:visited{color:#eee}
+#devel_toolbar ul,#devel_toolbar ul li{list-style: none;padding:0px;margin:0px;}
+#devel_toolbar ul li span{padding:3px 5px;display:block;cursor:pointer}
+#devel_toolbar ul li span:hover{background:#333}
+
+#devel_toolbar .devel_toolbar_item{padding:5px;border-top:1px dashed #fff}
+#devel_toolbar .devel_toolbar_item:last{}

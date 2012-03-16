@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+.ny_m_title{ height:36px; background:url(../images/bg/bg_08.jpg) no-repeat; padding-top:6px; padding-right:50px; padding-left:20px; font-weight:bold;}
+.ny_m_title a{ float:right; margin-left:29px; display:inline;}
+.ny_m_title img{ vertical-align:middle;}
+.ny_m_title span{ margin-top:8px; display:block; float:left;}

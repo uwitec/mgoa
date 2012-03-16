@@ -1,0 +1,1 @@
+CSRF_TOKEN|s:32:"31b68f3355984155598b0554bc6467c3";vdcode|s:4:"FCF7";user_info|a:4:{s:2:"id";s:2:"14";s:8:"username";s:9:"赵殿有";s:5:"group";a:2:{s:2:"id";N;s:4:"name";N;}s:4:"role";a:1:{i:0;a:3:{s:2:"id";s:1:"9";s:4:"name";s:9:"程序员";s:5:"alias";s:9:"程序员";}}}
